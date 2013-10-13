@@ -17,8 +17,5 @@ The calculation if the shoot was a hit, made by the worker can be scaled to any 
 Installation & Usage:
 
 1. ZMQ needs to be installed and working
-2. Compile sources with 
-"clang -Wall Source.c -o Source -L/usr/local/lib -lzmq"
-"clang -Wall Worker.c -o Worker -L/usr/local/lib -lzmq"
-"clang -Wall Evaluater.c -o Evaluater -L/usr/local/lib -lzmq"
+2. Compile sources with: "clang -Wall Source.c -o Source -L/usr/local/lib -lzmq", "clang -Wall Worker.c -o Worker -L/usr/local/lib -lzmq", "clang -Wall Evaluater.c -o Evaluater -L/usr/local/lib -lzmq"
 3. Besure to run Worker and Evaluater before you start the Source, otherwise you might not get any results
