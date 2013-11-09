@@ -15,7 +15,9 @@ Scalable:
 The calculation if the shoot was a hit, made by the worker can be scaled to any desired amount of clients.
 
 Installation & Usage:
+
 1. ZMQ needs to be installed and working
+
 2. Compile sources with
 
 - "clang -Wall Source.c -o Source -L/usr/local/lib -lzmq"
