@@ -1,3 +1,13 @@
+## Project status
+
+Historical project, last developed in 2014. Distributed Monte Carlo learning example with legacy Python 2 scripts and C sources. It is not a supported network service.
+
+No current runtime or production compatibility is claimed. The original source
+and results are retained for reference.
+
+Source code authored by Jesse Hinrichsen is licensed under MIT. Third-party
+code and external data retain their existing terms.
+
 pi_zmq
 ======
 
